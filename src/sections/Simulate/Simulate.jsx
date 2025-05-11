@@ -77,7 +77,7 @@ function Simulate() {
 
         if (char.hasActed) return updated;
 
-        char.timeLeft -= 0.5;
+        char.timeLeft -= 1;
 
         if (char.timeLeft <= 0) {
           char.timeLeft = 0;
