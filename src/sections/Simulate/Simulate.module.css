@@ -1,0 +1,63 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:35px;
+    text-align: center;
+    min-height: 500px;
+    margin: 10%;
+}
+
+.description { /* tiny about me */
+    max-width: 64ch;
+    margin-bottom: 24px;
+}
+
+.info { /* the typography after my photo */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+
+    .alias {
+        margin-top: -20px;
+    }
+}
+
+h1, h2, p {
+    text-align: center;
+}
+
+.characterGrid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.characterCard {
+  padding: 10px;
+  border: 4px solid #ccc;
+  border-radius: 10px;
+  min-width: 160px;
+  text-align: center;
+}
+
+@media (width < 800px) {
+  .characterGrid {
+    transform: scale(1);
+    transform-origin: top center;
+  }
+
+  .characterCard {
+    width: 90%;
+    max-width: 300px;
+  }
+}
+
+@media (width >= 1400px){
+    .description {
+        max-width: 84.2ch;
+    }
+} 
