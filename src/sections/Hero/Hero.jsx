@@ -19,7 +19,7 @@ function Hero() {
                     onClick={toggleTheme}/>
             </div>
             <div className={styles.info}>
-                <h2 className={styles.intro}>FCFS System</h2>
+                <h2 className={styles.intro}>SPD Priority System</h2>
                 <h1>Star Rail SPD Simulator</h1>
                 <p className={styles.description}>
                     Which of your characters act first in a battle? This tool allows you to simulate different SPDs to see who comes first to take action in your team. <br/><br/>
