@@ -23,9 +23,7 @@ function Hero() {
                 <h1>Star Rail SPD Simulator</h1>
                 <p className={styles.description}>
                     Which of your characters act first in a battle? This tool allows you to simulate different SPDs to see who comes first to take action in your team. <br/><br/>
-                    The higher your SPD, the faster your ally will act. High SPD will consider them to come first in action
-                    (High SPD = Low Arrival Time).
-                    Their animation is considered their Burst Time (Autoplay).
+                    The higher your SPD, the faster your ally will act. High SPD will consider them to come first in action.
                     <br/><br/>
                     Click 'Simulate' to start or scroll for more details.
                 </p>
