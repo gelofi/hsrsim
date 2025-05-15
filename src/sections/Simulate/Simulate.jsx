@@ -14,7 +14,7 @@ function Simulate() {
     "Bronya", "Castorice", "Cipher", "Clara", "Dan Heng", "Dr. Ratio", "Feixiao", "Firefly", "Fugue", "Fu Xuan", "Gallagher",
     "Gepard", "Guinaifen", "Hanya", "Herta", "Himeko", "Hook", "Huohuo", "Hyacine", "Imbibitor Lunae", "Jade",
     "Jiaoqiu", "Jing Yuan", "Jingliu", "Kafka", "Lingsha", "Luka", "Luocha", "Lynx", "March 7th (Preservation)",
-    "March 7th (The Hunt)", "Misha", "Moze", "Natasha", "Pela", "Qingque", "Rappa", "Robin", "Ruan Mei",
+    "March 7th (The Hunt)", "Misha", "Moze", "Mydei", "Natasha", "Pela", "Qingque", "Rappa", "Robin", "Ruan Mei",
     "Sampo", "Seele", "Serval", "Silver Wolf", "Sparkle", "Sunday", "Sushang", "The Herta", "Tingyun",
     "Topaz", "Trailblazer (Destruction)", "Trailblazer (Preservation)", "Trailblazer (Harmony)",
     "Trailblazer (Remembrance)", "Tribbie", "Welt", "Xueyi", "Yanqing", "Yukong", "Yunli"
@@ -101,7 +101,7 @@ function Simulate() {
     <section id="about" className={styles.container}>
       <div>
         <h1>Add a character's SPD</h1>
-        <p>You can add up to 4 characters. They will act based on their Action Value. <br/><br/></p>
+        <p>You can add up to 4 characters. They will act based on their Action Value. Higher SPD and Lower AV characters are a PRIORITY. <br/><br/></p>
 
         <select value={selected} onChange={(e) => setSelected(e.target.value)}>
           <option value="">Select a character</option>
